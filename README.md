@@ -41,6 +41,14 @@ to check history
 
 > git log --oneline
 
+### View the commit history
+
+    git log
+
+... View the commit history
+
+    git log
+
 
 remote to local
 --------------------------
