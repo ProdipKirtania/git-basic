@@ -1,7 +1,6 @@
 # git-basic arranged by # Prodip Kirtania
 
 ### git basics
-
     git init
     git add README.md
     git add .
@@ -11,22 +10,17 @@
     git push -u origin main
 
 
-or push an existing repository from the command line
-------------------------------------------------------
-> git remote add origin https://github.com/user-name/remote-repo.git
+... or push an existing repository from the command line
 
-> git branch -M main
-
-> git push -u origin main
+    git remote add origin https://github.com/user-name/remote-repo.git
+    git branch -M main
+    git push -u origin main
 
 
-local to remote after changes:
------------------
-> git add .
-
-> git commit -m "2nd commit"
-
-> git push
+... local to remote after changes:
+    git add .
+    git commit -m "2nd commit"
+    git push
 
 to check history
 -------------
