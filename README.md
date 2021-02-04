@@ -1,4 +1,4 @@
-# git-basic
+# git-basic arranged by # Prodip Kirtania
 
  git basics
  ============
