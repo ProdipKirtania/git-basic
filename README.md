@@ -2,13 +2,13 @@
 
 ### git basics
 
- git init
- git add README.md
- git add .
- git commit -m "1st commit"
- git branch -M main
- git remote add origin https://github.com/user-name/remote-repo.git
- git push -u origin main
+    git init
+    git add README.md
+    git add .
+    git commit -m "1st commit"
+    git branch -M main
+    git remote add origin https://github.com/user-name/remote-repo.git
+    git push -u origin main
 
 
 or push an existing repository from the command line
