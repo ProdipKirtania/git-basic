@@ -67,11 +67,9 @@ Create a new branch and switch to it
 
 to add new branch in remote
 -------------------------------------
-> git add .
-
->> git commit -m "2nd commit"
-
->>> git push --set-upstream origin [new-branch-name]
+    git add .
+    git commit -m "2nd commit"
+    git push --set-upstream origin [new-branch-name]
 
 Switch to a branch
 --------------------------
