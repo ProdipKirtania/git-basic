@@ -50,6 +50,19 @@ How to Remove a directory from Git Repository
 ---------------------------------------------
 >  rm -rf .git
 
+remove the file from the Git repository and the filesystem
+-----------------------------------------------------
+git rm file1.txt
+>> git commit -m "remove file1.txt"
+>>> git push origin branch_name
+
+emove the file only from the Git repository and not remove it from the filesystem
+-----------------------------------------------------
+> git rm --cached file1.txt
+>> git commit -m "remove file1.txt"
+>>> git push origin branch_name
+
+
 ** All about Branch
 =================================================
 
