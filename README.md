@@ -53,34 +53,36 @@ How to Remove a directory from Git Repository
 ** All about Branch
 =================================================
 
-Listing current branches
------------------------------
-> git branch
+... Listing current branches
 
-Making a new branch
------------------------------
-> git branch [new-branch-name]
+    git branch
 
-Create a new branch and switch to it
---------------------------------------
-> git checkout -b [new-branch name]
+... Making a new branch
 
-to add new branch in remote
--------------------------------------
+    git branch [new-branch-name]
+
+... Create a new branch and switch to it
+
+    git checkout -b [new-branch name]
+
+... to add new branch in remote
+
     git add .
     git commit -m "2nd commit"
     git push --set-upstream origin [new-branch-name]
 
-Switch to a branch
---------------------------
-> git checkout [branch name]
+... Switch to a branch
 
-Merge a branch into the active branch
-------------------------------------
-> git merge [branch name]
+    git checkout [branch name]
 
-Merge a branch into a target branch
------------------------------------
-> git merge [source branch] [target branch]
+** Merge
+======================
+... Merge a branch into the active branch
+
+    git merge [branch name]
+
+... Merge a branch into a target branch
+
+    git merge [source branch] [target branch]
 
 https://github.com/user-name/remote-repo.git
