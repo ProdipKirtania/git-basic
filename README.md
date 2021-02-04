@@ -18,24 +18,16 @@
 
 
 ... local to remote after changes:
+
     git add .
     git commit -m "2nd commit"
     git push
 
-to check history
+View the commit history
 -------------
 > git log
 
 > git log --oneline
-
-### View the commit history
-
-    git log
-
-... View the commit history
-
-    git log
-
 
 remote to local
 --------------------------
